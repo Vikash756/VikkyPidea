@@ -53,6 +53,6 @@ async def chat_with_gemini(chat_message: ChatMessage):
 async def health_check():
     return {"status": "healthy"}
 
-@app.get("/hye")
+@app.get("/")
 async def hye():
     return {"message": "API is running"}
