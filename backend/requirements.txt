@@ -1,3 +1,8 @@
-fastapi
-uvicorn
-python-decouple
+fastapi==0.109.2
+uvicorn==0.27.1
+python-decouple==3.8
+pydantic==2.6.1
+google-generativeai==0.3.2
+python-multipart==0.0.9
+typing-extensions==4.9.0
+gunicorn==21.2.0
