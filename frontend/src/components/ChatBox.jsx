@@ -5,7 +5,7 @@ import ChatInput from './ChatInput';
 import bgImage from "../vik.jpg";
 
 // Define the API URL
-const API_URL = 'http://127.0.0.1:9000';
+const API_URL = 'https://vikkypidea.onrender.com';
 
 const ChatBox = () => {
   const [messages, setMessages] = useState([]);
