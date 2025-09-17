@@ -13,7 +13,7 @@ GOOGLE_API_KEY = config("GOOGLE_API_KEY")
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Initialize the model
-model = genai.GenerativeModel("gemini-1.5-pro")
+model = genai.GenerativeModel("gemini-1.5-flash")
 
 # CORS configuration
 origins = [
